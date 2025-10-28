@@ -1,0 +1,24 @@
+[requires]
+boost/1.81.0
+openssl/1.1.1t
+libpq/14.0
+sqlite3/3.42.0
+nlohmann_json/3.11.2
+catch2/3.3.2
+libcurl/7.88.1
+zlib/1.2.13
+hiredis/1.1.0
+
+[generators]
+cmake_find_package
+cmake_paths
+
+[options]
+boost:shared=False
+openssl:shared=False
+libpq:shared=False
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./lib
+lib, *.so* -> ./lib
