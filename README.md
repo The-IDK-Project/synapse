@@ -29,7 +29,7 @@ A high-performance Matrix server written in C++17, compliant with the Matrix spe
 ### Build from sources
 
 ```
-git clone https://github.com/your-org/synapse.git
+https://github.com/The-IDK-Project/synapse.git
 cd synapse
 conan install . --build missing
 cmake --preset default
@@ -131,7 +131,7 @@ This project is licensed under the Apache License 2.0 - see LICENSE for details.
 Support
 
 # URL
-Matrix rooms: #matrix-server-cpp:matrix.org
+Matrix rooms: #theidkteam:matrix.org
 
 Issues: https://github.com/The-IDK-Project/synapse/issues
 
